@@ -17,6 +17,7 @@ app.get('/', (req, res) => {
 });
 
 app.use(express.json());
+// x-www-form-urlencoded를 사용하면 다음이 필요
 app.use(express.urlencoded({ extended: false }));
 
 // Routes
