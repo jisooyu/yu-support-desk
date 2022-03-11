@@ -26,7 +26,6 @@ function Login() {
       password,
     };
     dispatch(login(userData));
-    setFormData({ name: '', email: '', password: '', password2: '' });
   };
   return (
     <>
